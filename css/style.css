@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>HTML Backgorund Color</title>
-   </head>
-   <body style="background-color:grey;">
-</html>
+* {
+background-color: yellow;
+}
+
+h1 {
+
+}
