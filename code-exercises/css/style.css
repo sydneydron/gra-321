@@ -8,13 +8,13 @@ background-color: Linen;
 button {
   border: none;
   color: white;
-  background-color: RosyBrown;
+  background-color: Linen;
   padding:1em 2em 1em 2em;
 }
 
 
 .padding-hover:hover {
-    background-color: RosyBrown;
+    background-color: Linen;
     color:white;
     text-decoration: underline;
 }
@@ -36,7 +36,7 @@ button {
 
 
 
-h1 {
+h1 {font-family: futura;
   color: #RosyBrown;
   font-size:52px;
   position: relative;
@@ -45,7 +45,7 @@ h1 {
 }
 .container {
 
-    background-image: url(https://github.com/sydneydron/gra-321/code-exercises/img/CapeCod.jpg?raw=true);
+    background-image: url(https://github.com/sydneydron/gra-321/blob/master/code-exercises/img/CapeCod.jpg?raw=true);
     background-size: contain;
     background-repeat: no-repeat;
     height: 700px;
@@ -54,7 +54,7 @@ h1 {
   }
   .layout {
 
-      background-image: url(https://github.com/sydneydron/gra-321/code-exercises/img/Crate-and-Barrel-Kitchen-Layout.png?raw=true);
+      background-image: url(https://github.com/sydneydron/gra-321/blob/master/code-exercises/img/GRA%20321%20-%20Magazine%20Layout%20Crate&Barrel%20.png?raw=true);
       background-size: contain;
       background-repeat: no-repeat;
       height: 700px;
@@ -63,7 +63,7 @@ h1 {
     }
 
     h2 {font-family: futura;
-        color:#RosyBrown;
+        color:RosyBrown;
         font-size:52px;
         position: relative;
         text-align: center;
