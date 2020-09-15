@@ -36,7 +36,7 @@ button {
 
 @media screen and (max-width: 500px) {
     body {
-        background-color: Linen;
+        background-color: LightGrey;
     }
 }
 
@@ -51,7 +51,6 @@ h1 {font-family: Futura;
 
 }
 .container {
-
     background-image: url(https://sydneydron.github.io/gra-321/code-exercises/img/CapeCod.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -59,8 +58,8 @@ h1 {font-family: Futura;
     margin:0 auto;
     width:50%;
   }
-  .layout {
 
+  .layout {
       background-image: url(https://sydneydron.github.io/gra-321/code-exercises/img/Crate-and-Barrel-Kitchen-Layout.png;
       background-size: contain;
       background-repeat: no-repeat;
