@@ -10,15 +10,12 @@ background-color: Linen;
 
 }
 
-
-
 button {
   border: none;
   color: white;
   background-color: RosyBrown;
   padding:1em 2em 1em 2em;
 }
-
 
 .padding-hover:hover {
     background-color: RosyBrown;
@@ -29,7 +26,6 @@ button {
 /---Media Queries---/
 @media screen and (max-width: 1000px) {
     body {
-
         background-color: Linen;
     }
 }
@@ -39,8 +35,6 @@ button {
         background-color: LightGrey;
     }
 }
-
-
 
 
 h1 {font-family: Futura;
