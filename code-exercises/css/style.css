@@ -6,7 +6,7 @@ h1 {
 
 }
 body{
-background-color: SkyBlue;
+background-color: Linen;
 
 }
 
@@ -15,13 +15,13 @@ background-color: SkyBlue;
 button {
   border: none;
   color: white;
-  background-color: #4CAF50;
+  background-color: RosyBrown;
   padding:1em 2em 1em 2em;
 }
 
 
 .padding-hover:hover {
-    background-color: green;
+    background-color: RosyBrown;
     color:white;
     text-decoration: underline;
 }
@@ -30,21 +30,21 @@ button {
 @media screen and (max-width: 1000px) {
     body {
 
-        background-color: LightSalmon;
+        background-color: Linen;
     }
 }
 
 @media screen and (max-width: 500px) {
     body {
-        background-color: MediumSeaGreen;
+        background-color: Linen;
     }
 }
 
 
 
 
-h1 {
-  color: #fff;
+h1 {font-family: Futura;
+  color: RosyBrown;
   font-size:52px;
   position: relative;
   text-align: center;
@@ -69,8 +69,8 @@ h1 {
       width:50%;
     }
 
-    h2 {font-family: Franklin Gothic;
-        color:#fff;
+    h2 {font-family: Futura;
+        color:RosyBrown;
         font-size:52px;
         position: relative;
         text-align: center;
