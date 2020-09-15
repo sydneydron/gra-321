@@ -1,6 +1,13 @@
+* {
+
+}
+
+h1 {
+
+}
 body{
 background-color: Linen;
-color: #PaleVioletRed;
+
 }
 
 
@@ -8,13 +15,13 @@ color: #PaleVioletRed;
 button {
   border: none;
   color: white;
-  background-color: Linen;
+  background-color: RosyBrown;
   padding:1em 2em 1em 2em;
 }
 
 
 .padding-hover:hover {
-    background-color: Linen;
+    background-color: RosyBrown;
     color:white;
     text-decoration: underline;
 }
@@ -36,8 +43,8 @@ button {
 
 
 
-h1 {font-family: futura;
-  color: #RosyBrown;
+h1 {font-family: Futura;
+  color: RosyBrown;
   font-size:52px;
   position: relative;
   text-align: center;
@@ -54,7 +61,7 @@ h1 {font-family: futura;
   }
   .layout {
 
-      background-image: url(https://github.com/sydneydron/gra-321/blob/master/code-exercises/img/GRA%20321%20-%20Magazine%20Layout%20Crate&Barrel%20.png?raw=true);
+      background-image: url(https://github.com/sydneydron/gra-321/blob/master/code-exercises/img/GRA%20321%20-%20Magazine%20Layout%20Crate&Barrel%20.png?raw=true;
       background-size: contain;
       background-repeat: no-repeat;
       height: 700px;
@@ -62,7 +69,7 @@ h1 {font-family: futura;
       width:50%;
     }
 
-    h2 {font-family: futura;
+    h2 {font-family: Futura;
         color:RosyBrown;
         font-size:52px;
         position: relative;
