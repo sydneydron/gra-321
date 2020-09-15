@@ -11,7 +11,14 @@ h1 {font-family: futura;
 
 h2 {font-family: futura;
     color:#RosyBrown;
-    font-size:52px;
+    font-size:48px;
     position: relative;
     text-align: left;
 }
+
+h2 {font-family: futura;
+    color:#RosyBrown;
+    font-size:48px;
+    position: relative;
+    text-align: left;
+    }
