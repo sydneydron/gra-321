@@ -52,7 +52,7 @@ h1 {font-family: Futura;
 }
 .container {
 
-    background-image: url(https://github.com/sydneydron/gra-321/blob/master/code-exercises/img/CapeCod.jpg?raw=true);
+    background-image: url(https://github.com/sydneydron/gra-321/code-exercises/img/CapeCod.jpg?raw=true);
     background-size: contain;
     background-repeat: no-repeat;
     height: 700px;
@@ -61,7 +61,7 @@ h1 {font-family: Futura;
   }
   .layout {
 
-      background-image: url(https://github.com/sydneydron/gra-321/blob/master/code-exercises/img/GRA%20321%20-%20Magazine%20Layout%20Crate&Barrel%20.png?raw=true);
+      background-image: url(https://github.com/sydneydron/gra-321/code-exercises/img/Crate-and-Barrel-Kitchen-Layout.png?raw=true);
       background-size: contain;
       background-repeat: no-repeat;
       height: 700px;
