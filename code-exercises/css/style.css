@@ -61,6 +61,14 @@ h1 {
       margin:0 auto;
       width:50%;
     }
+    
+    h1 {
+      color: #RosyBrown;
+      font-size:52px;
+      position: relative;
+      text-align: center;
+
+    }
 
     h2 {font-family: futura;
         color:#RosyBrown;
