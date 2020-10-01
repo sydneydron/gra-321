@@ -1,0 +1,27 @@
+body{
+  background-color:white;
+  }
+
+h1{font-family: Helvetica;
+  font-size:45px;
+  line-height:54px;
+}
+
+h2{font-family: Georgia;
+  font-size:23px;
+  line-height:26px;
+}
+
+p{font-family: Georgia;
+  font-size:19px;
+  line-height:21px;
+}
+
+.col-1 {
+  flex: 1;
+  padding 10px
+}
+
+.col-2 {
+  flex: 2;
+}
