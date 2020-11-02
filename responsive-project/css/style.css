@@ -37,9 +37,9 @@ display:none;
 } */
 
 ul.menu-items a {
-  text-decoration:none;
+  text-decoration:underline;
   line-height:40px;
-  text-align: left;
+  text-align: right;
   color: black;
   display:block;
 }
@@ -72,8 +72,8 @@ text-align: left;
     justify-content: space-between;
   }
   .panel{
-    margin: 20px;
-    padding: 10px;
+    margin: 30px;
+    padding: 30px;
     background-color: #F5DEB3;
   }
 
