@@ -75,7 +75,6 @@ text-align: left;
     margin: 20px;
     padding: 10px;
     background-color: #F5DEB3;
-
   }
 
   .drink-menu{
@@ -87,3 +86,53 @@ text-align: left;
     padding: 30px;
     background-color: #F5DEB3;
   }
+
+  .iced-drinks-menu-container{
+    padding: 30px;
+    background-color: #F5DEB3;
+  }
+
+  .hot-drinks-menu-container{
+    padding: 30px;
+    background-color: #F5DEB3;
+  }
+
+  .specialty-drinks-menu-container{
+    padding: 30px;
+    background-color: #F5DEB3;
+  }
+
+  .food-menu{
+    color: #F5DEB3;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.sandwhiches-and-wraps-container{
+  padding: 30px;
+  background-color: #F5DEB3;
+}
+
+.backer-items-container{
+  padding: 30px;
+  background-color: #F5DEB3;
+}
+
+.snacks-for-on-the-go-container{
+  padding: 30px;
+  background-color: #F5DEB3;
+}
+
+.lower-panel-container{
+  background-color: black;
+  justify-content: space-between;
+}
+
+.get-in-touch{
+  color: #F5DEB3;
+  background-color: black;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
