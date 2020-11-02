@@ -1,7 +1,89 @@
 * {
+  margin: 0px;
 
 }
 
 h1 {
 
 }
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.nav-list{
+  list-style-type: none;
+}
+
+.nav-list-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F5DEB3;
+
+}
+
+/* #toggle:checked ~ ul.menu-items {
+  display:none;
+}
+
+#toggle {
+display:none;
+} */
+
+ul.menu-items a {
+  text-decoration:none;
+  line-height:40px;
+  text-align: left;
+  color: black;
+  display:block;
+}
+
+ul.menu-items {
+padding: 20px 0 40px 0;
+margin: 0;
+list-style-type: none;
+text-align: left;
+
+}
+
+.banner-container {
+    display: flex;
+    background-image: url("../img/coffee-beans.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    /* margin:0 auto; */
+    width: 400px;
+    color: #F5DEB3;
+    font-family: Georgia;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+  }
+
+  .panel-container{
+    background-color: black;
+    justify-content: space-between;
+  }
+  .panel{
+    margin: 20px;
+    padding: 10px;
+    background-color: #F5DEB3;
+
+  }
+
+  .drink-menu{
+    color: #F5DEB3;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .tea-menu-container{
+    padding: 30px;
+    background-color: #F5DEB3;
+  }
