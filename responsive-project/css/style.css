@@ -55,16 +55,15 @@ text-align: left;
 .banner-container {
     display: flex;
     background-image: url("../img/coffee-beans.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 150px;
     /* margin:0 auto; */
-    width: 400px;
+    width: 100%;
     color: #F5DEB3;
     font-family: Georgia;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
   }
 
   .panel-container{
@@ -86,6 +85,11 @@ text-align: left;
     padding: 30px;
     background-color: #F5DEB3;
   }
+
+  .tea-menu-container img{
+    width: 100%;
+  }
+
 
   .iced-drinks-menu-container{
     padding: 30px;
@@ -129,10 +133,15 @@ text-align: left;
   justify-content: space-between;
 }
 
+.lower{
+  background-color: black;
+}
+
 .get-in-touch{
   color: #F5DEB3;
   background-color: black;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 40px;
+  margin-bottom: 0px;
 }
