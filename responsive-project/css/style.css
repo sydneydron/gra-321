@@ -113,6 +113,7 @@ text-align: left;
     padding-bottom: 20px;
     padding-top: 40px;
 }
+
 .sandwhiches-and-wraps-container{
   padding: 30px;
   background-color: #F5DEB3;
@@ -128,13 +129,9 @@ text-align: left;
   background-color: #F5DEB3;
 }
 
-.lower-panel-container{
+.panel-container-lower{
   background-color: black;
   justify-content: space-between;
-}
-
-.lower{
-  background-color: black;
 }
 
 .get-in-touch{
