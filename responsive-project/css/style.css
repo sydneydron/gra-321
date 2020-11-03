@@ -3,8 +3,25 @@
 
 }
 
-h1 {
 
+h1 {
+font-size: 50px;
+font-family: Georgia;
+}
+
+h2 {
+font-size: 40px;
+font-family: Georgia;
+}
+
+h3 {
+font-size: 25px;
+font-family: Georgia;
+}
+
+p{
+font-size: 16px;
+font-family: Georgia;
 }
 
 .main{
