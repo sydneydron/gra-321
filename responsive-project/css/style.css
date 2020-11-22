@@ -3,6 +3,9 @@
 
 }
 
+body {
+  background-color: #261917;
+}
 
 h1 {
 font-size: 50px;
@@ -86,13 +89,35 @@ text-align: left;
   }
 
   .panel-container{
-    background-color: black;
+
     justify-content: space-between;
   }
   .panel{
-    margin: 100px;
+    margin: 40px;
     padding: 30px;
     background-color: #F5DEB3;
+  }
+
+  .menu-item-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.menu-item-row p{
+  width: 30%;
+}
+.menu-item-row ul{
+  width: 60%;
+  list-style-type: none;
+  float: right;
+  text-align: right;
+  }
+
+.menu-item-row ul li{
+  display: inline-block;
+  width: 30%;
   }
 
   .drink-menu{
@@ -102,6 +127,8 @@ text-align: left;
   }
   .tea-menu-container{
     padding: 30px;
+    width: 85%;
+    margin: 0 auto;
     background-color: #F5DEB3;
   }
 
@@ -127,7 +154,6 @@ text-align: left;
 
   .food-menu{
     color: #F5DEB3;
-    background-color: black;
     text-align: center;
     padding-bottom: 60px;
     padding-top: 60px;
@@ -138,7 +164,7 @@ text-align: left;
   background-color: #F5DEB3;
 }
 
-.backer-items-container{
+.backery-items-container{
   padding: 30px;
   background-color: #F5DEB3;
 }
@@ -149,13 +175,11 @@ text-align: left;
 }
 
 .panel-container-lower{
-  background-color: black;
   justify-content: space-between;
 }
 
 .get-in-touch{
   color: #F5DEB3;
-  background-color: black;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 40px;
