@@ -185,3 +185,18 @@ text-align: left;
   padding-top: 40px;
   margin-bottom: 0px;
 }
+
+@media only screen and (min-width:400px){
+  .drink-menu{
+    display: flex;
+}
+.iced-drinks {
+  width: 50%;
+  display: inline-block;
+  }
+.drink-menu img{
+  width: 30%;
+  margin-right: 20px;
+
+}
+}
