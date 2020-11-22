@@ -187,16 +187,108 @@ text-align: left;
 }
 
 @media only screen and (min-width:400px){
-  .drink-menu{
-    display: flex;
-}
-.iced-drinks {
-  width: 50%;
-  display: inline-block;
-  }
-.drink-menu img{
-  width: 30%;
-  margin-right: 20px;
 
-}
+  .panel-container{
+
+    justify-content: space-between;
+  }
+  .panel{
+    margin: 40px;
+    padding: 30px;
+    background-color: #F5DEB3;
+  }
+
+  .menu-item-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-item-row p{
+  width: 30%;
+  }
+  .menu-item-row ul{
+  width: 60%;
+  list-style-type: none;
+  float: right;
+  text-align: right;
+  }
+
+  .menu-item-row ul li{
+  display: inline-block;
+  width: 30%;
+  }
+
+  .drink-menu{
+    display: flex
+  }
+  .tea-menu-container{
+    width: 50%
+    display: inline-block;
+  }
+
+  .tea-menu-container img{
+    width: 30%;
+    margin-right: 20px
+  }
+
+
+  .iced-drinks-menu-container{
+    width: 50%
+    display: inline-block;
+  }
+  .iced-drinks-menu-container img{
+    width: 30%;
+    margin-right: 20px
+  }
+
+  .hot-drinks-menu-container{
+    width: 50%
+    display: inline-block;
+  }
+  .hot-drinks-menu-container img{
+    width: 30%;
+    margin-right: 20px
+  }
+
+  .specialty-drinks-menu-container{
+    padding: 30px;
+    background-color: #F5DEB3;
+  }
+
+  .food-menu{
+    color: #F5DEB3;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  .sandwhiches-and-wraps-container{
+  padding: 30px;
+  background-color: #F5DEB3;
+  }
+
+  .backery-items-container{
+  padding: 30px;
+  background-color: #F5DEB3;
+  }
+
+  .snacks-for-on-the-go-container{
+  padding: 30px;
+  background-color: #F5DEB3;
+  }
+
+  .panel-container-lower{
+  justify-content: space-between;
+  }
+
+  .get-in-touch{
+  color: #F5DEB3;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  margin-bottom: 0px;
+  }
+
 }
