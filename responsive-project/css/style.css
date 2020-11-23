@@ -29,6 +29,122 @@ font-size: 16px;
 font-family: Georgia;
 }
 
+html {
+  font-size: 16px
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgba;
+  width: 100%;
+}
+
+.header-nav {
+  background-color: #F7F7DF;
+  width: 100%;
+}
+
+.nav-bar {
+  display:flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+}
+
+#logo {
+height:100px;
+}
+
+label {
+font-size: 50px;
+line-height:100px;
+cursor: pointer;
+background-color: #F7F7DF;
+}
+
+ul.menu-items {
+padding: 20px 0 0 0;
+margin: 0;
+list-style-type: none;
+text-align: left;
+  background-color: #F7F7DF;
+}
+
+ul.menu-items a {
+  text-decoration:none;
+  line-height:40px;
+  text-align: center;
+  color: white;
+  display:block;
+  background-color:#F7F7DF;
+}
+
+ul.menu-items a:first-of-type {
+  padding-top:10px;
+}
+
+ul.menu-items a:last-of-type {
+  padding-bottom:10px;
+}
+
+#toggle:checked ~ ul.menu-items {
+  display:none;
+}
+
+#drink-menu, #food-menu, #get-in-touch {
+  height:500px;
+}
+
+@media only screen and (min-width: 500px) {
+  .header-nav {
+  background-color: #F7F7DF;
+  width:90%;
+  margin: 0 auto;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+  .menu-items li a {
+  background-color: #F7F7DF; /*change color here */
+    color: black;
+
+  }
+
+.nav-bar {
+  display:inline-block;
+  position: relative;
+  padding: 30px 0 30px 0;
+  width:60%;
+}
+
+
+#toggle {
+display:none;
+}
+
+label {
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items {
+display: flex;
+margin: 0;
+list-style-type: none;
+text-align: right;
+border-top:none;
+  width: 60%;
+  justify-content: space-between;
+}
+  ul.menu-items {
+padding: 0px 0 0px 0;
+    height: 100px;
+}
+}
+
 .main{
   display: flex;
   flex-direction: column;
@@ -142,6 +258,10 @@ text-align: left;
     background-color: #F5DEB3;
   }
 
+  .iced-drinks-menu-container img{
+    width: 100%;
+  }
+
   .hot-drinks-menu-container{
     padding: 30px;
     background-color: #F5DEB3;
@@ -187,108 +307,21 @@ text-align: left;
 }
 
 @media only screen and (min-width:400px){
+.drink-menu{
+  display: flex;
+}
 
-  .panel-container{
+.iced-drinks-menu-container{
+  width: 50%;
+  display: incline-block;
+}
 
-    justify-content: space-between;
-  }
-  .panel{
-    margin: 40px;
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
-
-  .menu-item-row{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .menu-item-row p{
+.iced-drinks-menu-container img{
   width: 30%;
-  }
-  .menu-item-row ul{
-  width: 60%;
-  list-style-type: none;
-  float: right;
-  text-align: right;
-  }
-
-  .menu-item-row ul li{
   display: inline-block;
-  width: 30%;
-  }
-
-  .drink-menu{
-    display: flex
-  }
-  .tea-menu-container{
-    width: 50%
-    display: inline-block;
-  }
-
-  .tea-menu-container img{
-    width: 30%;
-    margin-right: 20px
-  }
+}
 
 
-  .iced-drinks-menu-container{
-    width: 50%
-    display: inline-block;
-  }
-  .iced-drinks-menu-container img{
-    width: 30%;
-    margin-right: 20px
-  }
 
-  .hot-drinks-menu-container{
-    width: 50%
-    display: inline-block;
-  }
-  .hot-drinks-menu-container img{
-    width: 30%;
-    margin-right: 20px
-  }
-
-  .specialty-drinks-menu-container{
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
-
-  .food-menu{
-    color: #F5DEB3;
-    text-align: center;
-    padding-bottom: 60px;
-    padding-top: 60px;
-  }
-
-  .sandwhiches-and-wraps-container{
-  padding: 30px;
-  background-color: #F5DEB3;
-  }
-
-  .backery-items-container{
-  padding: 30px;
-  background-color: #F5DEB3;
-  }
-
-  .snacks-for-on-the-go-container{
-  padding: 30px;
-  background-color: #F5DEB3;
-  }
-
-  .panel-container-lower{
-  justify-content: space-between;
-  }
-
-  .get-in-touch{
-  color: #F5DEB3;
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 40px;
-  margin-bottom: 0px;
-  }
 
 }
