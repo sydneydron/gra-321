@@ -71,14 +71,14 @@ margin: 0;
 list-style-type: none;
 text-align: left;
   background-color: #F5DEB3;
-  color: white;
+
 }
 
 ul.menu-items a {
   text-decoration:none;
   line-height:40px;
   text-align: center;
-  color: white;
+  color: black;
   display:block;
   background-color: black;
 }
@@ -110,7 +110,7 @@ ul.menu-items a:last-of-type {
 }
 
   .menu-items li a {
-  background-color: #F5DEB3; /*change color here */
+  background-color: #F5DEB3;
     color: black;
 
   }
@@ -179,9 +179,10 @@ display:none;
 ul.menu-items a {
   text-decoration:underline;
   line-height:40px;
-  text-align: right;
-  color: black;
+  text-align: center;
+  color: #F5DEB3;
   display:block;
+
 }
 
 ul.menu-items {
