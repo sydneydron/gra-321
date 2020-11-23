@@ -313,15 +313,42 @@ text-align: left;
   display: flex;
 }
 
+.tea-menu-container{
+  width: 50%;
+  display: incline-block;
+}
+
+
 .iced-drinks-menu-container{
   width: 50%;
   display: incline-block;
 }
 
-.iced-drinks-menu-container img{
-  width: 30%;
-  display: inline-block;
+.hot-drinks-menu-container{
+  width: 50%;
+  display: incline-block;
 }
+
+.specialty-drinks-menu-container{
+  width: 50%;
+  display: incline-block;
+}
+
+.sandwhiches-and-wraps-container{
+  width: 50%;
+  display: incline-block;
+}
+
+.bakery-items{
+  width: 50%;
+  display: incline-block;
+}
+
+.snacks-for-on-the-go-container{
+  width: 50%;
+  display: incline-block;
+}
+
 
 
 
