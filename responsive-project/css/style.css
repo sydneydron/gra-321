@@ -35,12 +35,12 @@ html {
 }
 
 header {
-  background-color: rgba;
+  background-color:F5DEB3;
   width: 100%;
 }
 
 .header-nav {
-  background-color: #F7F7DF;
+  background-color: #F5DEB3;
   width: 100%;
 }
 
@@ -62,7 +62,7 @@ label {
 font-size: 50px;
 line-height:100px;
 cursor: pointer;
-background-color: #F7F7DF;
+background-color: #F5DEB3;
 }
 
 ul.menu-items {
@@ -70,7 +70,8 @@ padding: 20px 0 0 0;
 margin: 0;
 list-style-type: none;
 text-align: left;
-  background-color: #F7F7DF;
+  background-color: #F5DEB3;
+  color: white;
 }
 
 ul.menu-items a {
@@ -79,7 +80,7 @@ ul.menu-items a {
   text-align: center;
   color: white;
   display:block;
-  background-color:#F7F7DF;
+  background-color: black;
 }
 
 ul.menu-items a:first-of-type {
@@ -91,7 +92,7 @@ ul.menu-items a:last-of-type {
 }
 
 #toggle:checked ~ ul.menu-items {
-  display:none;
+  display: none;
 }
 
 #drink-menu, #food-menu, #get-in-touch {
@@ -100,7 +101,7 @@ ul.menu-items a:last-of-type {
 
 @media only screen and (min-width: 500px) {
   .header-nav {
-  background-color: #F7F7DF;
+  background-color: ##F5DEB3;
   width:90%;
   margin: 0 auto;
     display:flex;
@@ -109,7 +110,7 @@ ul.menu-items a:last-of-type {
 }
 
   .menu-items li a {
-  background-color: #F7F7DF; /*change color here */
+  background-color: #F5DEB3; /*change color here */
     color: black;
 
   }
@@ -143,6 +144,7 @@ border-top:none;
 padding: 0px 0 0px 0;
     height: 100px;
 }
+
 }
 
 .main{
