@@ -54,6 +54,10 @@ header {
   padding: 30px 0 30px 0;
 }
 
+.panel-container{
+    display: none;
+  }
+
 #logo {
 height:100px;
 }
@@ -97,6 +101,8 @@ ul.menu-items a:last-of-type {
 #drink-menu, #food-menu, #get-in-touch {
   height:500px;
 }
+
+
 
 @media only screen and (min-width: 500px) {
   .header-nav {
@@ -179,7 +185,7 @@ ul.menu-items a {
   text-decoration:underline;
   line-height:40px;
   text-align: center;
-  color: red;
+  color: #DEB887;
   display:block;
 
 }
@@ -318,7 +324,7 @@ text-align: left;
   background-color: #F5DEB3;
 }
 
-.backery-items-container{
+.bakery-items-container{
   padding: 30px;
   background-color: #F5DEB3;
 }
