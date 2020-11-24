@@ -35,7 +35,7 @@ html {
 }
 
 header {
-  background-color:F5DEB3;
+  background-color: F5DEB3;
   width: 100%;
 }
 
@@ -78,7 +78,6 @@ ul.menu-items a {
   text-decoration:none;
   line-height:40px;
   text-align: center;
-  color: black;
   display:block;
   background-color: black;
 }
@@ -180,7 +179,7 @@ ul.menu-items a {
   text-decoration:underline;
   line-height:40px;
   text-align: center;
-  color: #F5DEB3;
+  color: red;
   display:block;
 
 }
@@ -207,9 +206,11 @@ text-align: left;
     align-items: center;
   }
 
-  .panel-container{
-
-    justify-content: space-between;
+.tea-img{
+  width: 30%;
+}
+  .row-container{
+    display: flex;
   }
 
   .panel-1{
@@ -275,16 +276,15 @@ text-align: left;
     text-align: center;
     padding-bottom: 60px;
   }
+
   .tea-menu-container{
     padding: 30px;
     width: 85%;
-    margin: 0 auto;
+    margin: none;
+    margin-right: none;
     background-color: #F5DEB3;
   }
 
-  .tea-menu-container img{
-    width: 100%;
-  }
 
 
   .iced-drinks-menu-container{
@@ -340,7 +340,13 @@ text-align: left;
   margin-bottom: 0px;
 }
 
-@media only screen and (min-width:400px){
+.menu-items{
+  color: black
+}
+.panel-container{
+    display: flex;
+    justify-content: space-between;
+  }
 
 .panel-1{
   width: 30%;
@@ -353,22 +359,22 @@ text-align: left;
   }
 
   .panel-3{
-    width: 30%;
+    width: 90%;
     display: incline-block;
     }
 
   .panel-4{
-    width: 30%;
+    width: 50%;
     display: incline-block;
     }
 
     .panel-5{
-      width: 30%;
+      width: 50%;
       display: incline-block;
       }
 
     .panel-6{
-      width: 30%;
+      width: 50%;
       display: incline-block;
       }
 
