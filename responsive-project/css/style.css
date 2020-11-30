@@ -150,23 +150,29 @@ display:block;
 }
 
 .drink-menu-container{
-  padding: 30px;
+  width: auto;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #F5DEB3;
 }
 
 .specialty-drinks-container{
-  width: 80%;
+  width: 90%;
   padding: 10px;
   background-color: #F5DEB3;
 }
+
+
 
 .sandwiches-and-wraps-container{
-  background-color: #F5DEB3;
+  width: 90%;
   padding: 10px;
+  background-color: #F5DEB3;
+
 }
 
-.panel-container {
-}
+
 
 .panel-1{
   margin: 40px;
@@ -188,19 +194,19 @@ margin-bottom: 50px;
 }
 
 .panel-3-container{
-  width: 90%;
+  width: 100%;
   background-color: #261917;
 }
 
 .locations-panel-container {
-width: 90%;
+width: 100%;
 background-color: #261917;
 }
 
 
 .panel-3{
   margin: 40px;
-  padding:30px;
+  padding: 30px;
   background-color: #F5DEB3;
 }
 
@@ -224,7 +230,6 @@ background-color: #261917;
 
 
 @media only screen and (min-width: 700px) {
-
 
   .row-container {
   width: 100%;
@@ -376,67 +381,6 @@ text-align: left;
     padding-bottom: 60px;
   }
 
-
-
-
-
-  .iced-drinks-menu-container{
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
-
-  .iced-drinks-menu-container img{
-    width: 100%;
-  }
-
-  .hot-drinks-menu-container{
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
-
-  .specialty-drinks-menu-container{
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
-
-  .food-menu{
-    color: #F5DEB3;
-    text-align: center;
-    padding-bottom: 60px;
-    padding-top: 60px;
-}
-
-.sandwhiches-and-wraps-container{
-  padding: 30px;
-  background-color: #F5DEB3;
-}
-
-.bakery-items-container{
-  padding: 30px;
-  background-color: #F5DEB3;
-}
-
-.snacks-for-on-the-go-container{
-  padding: 30px;
-  background-color: #F5DEB3;
-}
-
-.panel-container-lower{
-  justify-content: space-between;
-}
-
-.get-in-touch
-{  color: #F5DEB3;
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 40px;
-  margin-bottom: 0px;
-}
-
-.menu-items{
-  color: black
-}
-
 .panel-container{
     display: flex;
     justify-content: space-between;
@@ -452,9 +396,16 @@ text-align: left;
   display: incline-block;
   }
 
+  .panel-3-container{
+    width: 100%;
+    background-color: #261917;
+  }
+
   .panel-3{
-    width: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
     display: incline-block;
+    text-align: center;
     }
 
     .locations-panel-container {
@@ -464,25 +415,14 @@ text-align: left;
     }
 
     .locations-panel-4, .locations-panel-5, .locations-panel-6 {
-    width: 20%;
-  }
-
-.drink-menu{
-  display: flex;
-}
-
-
-
-
-.iced-drinks-menu-container{
-  width: 50%;
-  display: inline-block;
-}
-
-.hot-drinks-menu-container{
-  width: 50%;
-  display: inline-block;
-}
+      width: 60%;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding: 30px;
+      background-color: #F5DEB3;
+    }
 
 .specialty-drinks-menu-container{
   width: 50%;
@@ -494,18 +434,13 @@ text-align: left;
   display: inline-block;
 }
 
-.bakery-items{
-  width: 50%;
-  display: incline-block;
-}
 
-.snacks-for-on-the-go-container{
-  width: 50%;
-  display: incline-block;
-}
-
-.panel-3 {
-  text-align: center;
+.drink-menu-container{
+  width: 95%;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #F5DEB3;
 }
 
 
