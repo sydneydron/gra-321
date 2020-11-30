@@ -18,7 +18,7 @@ color: #F5DEB3;
 h2 {
 font-size: 40px;
 font-family: Georgia;
-color: #F5DEB3; 
+color: #F5DEB3;
 }
 
 h3 {
@@ -117,6 +117,29 @@ ul.menu-items a:last-of-type {
     align-items: center;
   }
 
+  .menu-item-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.menu-item-row p{
+  width: 20%;
+}
+.menu-item-row ul{
+  width: 50%;
+  list-style-type: none;
+  float: right;
+  text-align: right;
+  margin-right: 20%;
+  }
+
+.menu-item-row ul li{
+  display: inline-block;
+  width: 20%;
+  }
+
 .drink-menu-container, .drink-img {
 width:100%;
 display:block;
@@ -124,6 +147,18 @@ display:block;
 
 .drink-menu-container{
   padding: 30px;
+  background-color: #F5DEB3;
+}
+
+.specialty-drinks-container{
+  width: 80%;
+  padding: 10px;
+  background-color: #F5DEB3;
+}
+
+.sandwhiches-and-wraps-container{
+  width: 20%;
+  padding: 10px;
   background-color: #F5DEB3;
 }
 
