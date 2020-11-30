@@ -82,6 +82,8 @@ ul.menu-items a {
   text-align: center;
   display:block;
   background-color: black;
+  color: #F5DEB3 !important;
+
 }
 
 ul.menu-items a:first-of-type {
@@ -100,9 +102,75 @@ ul.menu-items a:last-of-type {
   height:500px;
 }
 
+.drink-menu-container, .drink-img {
+width:100%;
+display:block;
+}
+
+.drink-menu-container{
+  padding: 30px;
+  background-color: #F5DEB3;
+}
+
+.panel-container {
+}
+
+.panel-1{
+  margin: 40px;
+  padding: 30px;
+  background-color: #F5DEB3;
+}
+
+.panel-2{
+  margin: 40px;
+  padding: 30px;
+  background-color: #F5DEB3;
+}
+
+.panel-3{
+  margin: 40px;
+  padding: 30px;
+  background-color: #F5DEB3;
+}
 
 
-@media only screen and (min-width: 500px) {
+.row-container {
+width: 100%;
+margin-bottom: 50px;
+}
+
+.locations-panel-container {
+width: 100%;
+background-color: blue;
+}
+
+.locations-panel-4{
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #F5DEB3;
+}
+
+.locations-panel-5{
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #F5DEB3;
+}
+
+.locations-panel-6{
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #F5DEB3;
+}
+
+
+@media only screen and (min-width: 700px) {
+
+  .row-container {
+  width: 100%;
+  display: flex;
+  }
+
+
   .header-nav {
   background-color: ##F5DEB3;
   width:90%;
@@ -114,9 +182,11 @@ ul.menu-items a:last-of-type {
 
   .menu-items li a {
   background-color: #F5DEB3;
-    color: black;
+color: black;
 
   }
+
+
 
 .nav-bar {
   display:inline-block;
@@ -148,12 +218,12 @@ padding: 0px 0 0px 0;
     height: 100px;
 }
 
-}
 
 .main{
   display: flex;
   flex-direction: column;
 }
+
 .nav-list{
   list-style-type: none;
 }
@@ -183,7 +253,7 @@ ul.menu-items a {
   text-decoration:underline;
   line-height:40px;
   text-align: center;
-  color: #DEB887;
+  color: #000 !important;
   display:block;
 
 }
@@ -210,48 +280,10 @@ text-align: left;
     align-items: center;
   }
 
-.tea-img{
-  width: 30%;
-}
-  .row-container{
-    display: flex;
-  }
 
-  .panel-1{
-    margin: 40px;
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
 
-  .panel-2{
-    margin: 40px;
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
 
-  .panel-3{
-    margin: 40px;
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
 
-  .panel-4{
-    margin: 40px;
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
-
-  .panel-5{
-    margin: 40px;
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
-
-  .panel-6{
-    margin: 40px;
-    padding: 30px;
-    background-color: #F5DEB3;
-  }
 
   .menu-item-row{
     display: flex;
@@ -281,13 +313,7 @@ text-align: left;
     padding-bottom: 60px;
   }
 
-  .tea-menu-container{
-    padding: 30px;
-    width: 85%;
-    margin: none;
-    margin-right: none;
-    background-color: #F5DEB3;
-  }
+
 
 
 
@@ -336,8 +362,8 @@ text-align: left;
   justify-content: space-between;
 }
 
-.get-in-touch{
-  color: #F5DEB3;
+.get-in-touch
+{  color: #F5DEB3;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 40px;
@@ -347,18 +373,19 @@ text-align: left;
 .menu-items{
   color: black
 }
+
 .panel-container{
     display: flex;
     justify-content: space-between;
   }
 
 .panel-1{
-  width: 30%;
+  width: 40%;
   display: incline-block;
   }
 
 .panel-2{
-  width: 30%;
+  width: 40%;
   display: incline-block;
   }
 
@@ -367,49 +394,41 @@ text-align: left;
     display: incline-block;
     }
 
-  .panel-4{
-    width: 50%;
-    display: incline-block;
+    .locations-panel-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     }
 
-    .panel-5{
-      width: 50%;
-      display: incline-block;
-      }
-
-    .panel-6{
-      width: 50%;
-      display: incline-block;
-      }
+    .locations-panel-4, .locations-panel-5, .locations-panel-6 {
+    width: 20%;
+  }
 
 .drink-menu{
   display: flex;
 }
 
-.tea-menu-container{
-  width: 50%;
-  display: incline-block;
-}
+
 
 
 .iced-drinks-menu-container{
   width: 50%;
-  display: incline-block;
+  display: inline-block;
 }
 
 .hot-drinks-menu-container{
   width: 50%;
-  display: incline-block;
+  display: inline-block;
 }
 
 .specialty-drinks-menu-container{
   width: 50%;
-  display: incline-block;
+  display: inline-block;
 }
 
 .sandwhiches-and-wraps-container{
   width: 50%;
-  display: incline-block;
+  display: inline-block;
 }
 
 .bakery-items{
