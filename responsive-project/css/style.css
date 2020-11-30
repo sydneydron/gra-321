@@ -195,7 +195,7 @@ margin-bottom: 50px;
 
 .panel-3-container{
   width: 100%;
-  margin: none;
+  margin:auto;
   background-color: #261917;
 }
 
@@ -231,6 +231,7 @@ background-color: #261917;
 
 
 @media only screen and (min-width: 700px) {
+
 
   .row-container {
   width: 100%;
@@ -376,11 +377,6 @@ text-align: left;
   width: 30%;
   }
 
-  .drink-menu{
-    color: #F5DEB3;
-    text-align: center;
-    padding-bottom: 60px;
-  }
 
 .panel-container{
     display: flex;
