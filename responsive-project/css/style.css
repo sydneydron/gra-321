@@ -103,6 +103,10 @@ ul.menu-items a:last-of-type {
   padding-bottom:10px;
 }
 
+input {
+  display:none;
+}
+
 #toggle:checked ~ ul.menu-items {
   display:none;
 }
